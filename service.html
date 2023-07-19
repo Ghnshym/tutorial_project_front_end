@@ -1,0 +1,1946 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995394796626631"
+     crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<title>c programs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/jplogo.jpeg" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<script href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<style>
+     #arrow {
+            position: fixed;
+            bottom: 120px;
+            right: 35px;
+            width: 45px;
+            height: 40px;
+            background-color: #5b6467;
+            color: white;
+            font-size: 22px;
+           display: none;
+            text-align: center;
+        }
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body {
+		font-family: 'Poppins';
+	}
+
+	header {
+		position: relative;
+		min-height: 400px;
+		overflow: hidden;
+	}
+
+	.banner {
+		position: absolute;
+background-color: black;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		
+	}
+
+	.site-banner-content {
+		position: relative;
+		color: #fff;
+		text-align: center;
+		padding: 100px 0;
+		margin: 0;
+	}
+
+	h4 {
+		font-weight: bolder;
+	}
+
+	.col-md-4 {
+		margin-top: 5px;
+	}
+
+	.heading {
+		color: white;
+		background-color: #dc3545;
+		border: 2px solid black;
+	}
+
+	#contentsDiv #sidebar li {
+		border-bottom: 1px black dotted;
+		margin-bottom: 5px;
+	}
+
+	#contentsDiv a {
+		text-decoration: none;
+	}
+
+	#contentsDiv li:hover {
+		background-color: #CCC;
+
+	}
+
+	#accordion li {
+		padding: 1px;
+		border-bottom: 1px dotted green;
+		;
+	}
+
+	ul ul li {
+		color: brown;
+	}
+#hd
+	{
+	color: #dc3545;
+		font-weight: bold;
+	}
+</style>
+<!---------------scroll-top--------------->
+<script>
+	$(document).ready(function() {
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 20) {
+				$("#arrow").fadeIn();
+			} else {
+				$("#arrow").fadeOut();
+			}
+		});
+		$("#arrow").click(function() {
+			$("html,body").animate({
+				scrollTop: 0
+			}, 800);
+		});
+	});
+
+</script>
+
+<body>
+	<html lang="en">
+<head>
+	<meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Responsive Homepage design with Bootstrap 4 and Animate css</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	  <script href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"></script>
+	   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+         body {
+    font-family: 'Poppins';
+}
+ .navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	 	
+}
+        
+.navbar-light .navbar-brand {
+	color: #fff;
+
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+        
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+      
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+   
+}
+     
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+    text-decoration: underline 4px solid lightblue;  
+   
+    
+}
+        
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		/*background: rgba(0, 0, 0, 0.5);*/
+		background: #007bff;
+	}
+	.navbar-nav a {
+		font-size: 16px;
+		font-weight: normal;
+	}
+    
+}
+        
+</style>
+</head>
+    
+    <body>
+ 
+ 
+ 
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+    
+    </body>
+</html>	<header>
+		<div class="banner">
+			<div class="site-banner-content mt-5">
+			
+			<center>
+				<h5>Download:-- C Programs in TURBO C++</h5>
+			</center>
+	
+			
+			</div>
+		</div>
+	</header>
+	<!=----->
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995394796626631"
+     crossorigin="anonymous"></script>
+<!-- adsense ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3995394796626631"
+     data-ad-slot="4883801336"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+		<!---------------->
+		<div class="container" style="margin-top:15px;">
+			<div class="row">
+
+				<div class="col-sm-3 col-md-3" id="sidebar">
+					<h5 class="bg-primary  rounded-top ml-auto" style="text-align:center; padding:5px; color:#FFF">Programs</h5>
+					<div id="contentsDivv">
+
+						<div id="accordion">
+
+ <div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#basic" aria-expanded="false" aria-controls="collapseExample">
+   Basic 
+  </button>
+									</h5></div>
+<div class="collapse" id="basic">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<li><a href="#hello">C "Hello, World!" Program</a></li>
+											<li><a href="#add">C Program to Add Two Integers</a></li>
+											<a href="#quotient">
+												<li>C Program to Compute Quotient and Remainder</li>
+											</a>
+											<a href="#cyl">
+												<li>C Program for volume of Cylinder.</li>
+											</a>
+											<a href="#marks">
+												<li> C Program Input the marks of Three Different Subjects and find out the total & percentage.</li>
+											</a>
+											<li><a href="#square">C Program to Calculate Square of a Number </a></li>
+											<li><a href="#ascii">C Program to Find ASCII Value of a Character</a></li>
+											<a href="#size">
+												<li>C PROGRAM to Find the Size of int, float, double and char</li>
+											</a>
+											<a href="#cyl">
+												<li>C PROGRAM to find the simple interest, inputs are amount, period in years
+													and rate of interest.
+												</li>
+											</a>
+										</ul>
+  </div>
+</div></div>
+						<!--------------------->
+
+							<!-- **************** if-else ************* -->
+							<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#if" aria-expanded="false" aria-controls="collapseExample">
+   if-else
+  </button>
+									</h5></div>
+<div class="collapse" id="if">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#pstv">
+												<li>C Program to display a number if it is positive</li>
+											</a>
+											<li><a href="#larger">C PROGRAM to find the larger of two numbers</a></li>
+											<li><a href="#even">C PROGRAM to find whether the given number is even or odd</a></li>
+											<a href="#nested">
+												<li> C PROGRAM to find greater of three numbers using Nested If</li>
+											</a>
+											<li><a href="#ladder">Program to Check no. is +ve ,-ve & zero.</a></li>
+											<a href="#switch">
+												<li>C PROGRAM to Make a Simple Calculator Using switch...case</li>
+											</a>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!----Looping--->
+								<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#loop" aria-expanded="false" aria-controls="collapseExample">
+   Looping
+  </button>
+									</h5></div>
+<div class="collapse" id="loop">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#while1">
+												<li> C Program Print numbers from 1 to 5 using while loop</li>
+											</a>
+											<li><a href="#while2">WRITE A PROGRAM to Generate Multiplication Table Using while loop </a></li>
+											<li><a href="#for1">WRITE A C PROGRAM to display the first 10 natural numbers</a></li>
+											<a href="#for2">
+												<li>WRITE A C PROGRAM to Generate Multiplication Table Using for loop</li>
+											</a>
+											<a href="#do">
+												<li>C Program Print numbers from 1 to 5 using do-while loop
+												</li>
+											</a>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!----jumping--->
+								<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#jump" aria-expanded="false" aria-controls="collapseExample">
+   Jumping
+  </button>
+									</h5></div>
+<div class="collapse" id="jump">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#jump1">
+												<li> C Program Print series from 1 to 10 and break on 5</li>
+											</a>
+											<li><a href="#jump2">C Program Print series from 1 to 10 and skip only 5 and 7 </a></li>
+											<li><a href="#jump3">C Program To print numbers from 1 to 10 using goto statement</a></li>
+
+
+										</ul>
+									</div>
+								</div>
+							
+							<!-----function------>
+								<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#fun" aria-expanded="false" aria-controls="collapseExample">
+ Function
+  </button>
+									</h5></div>
+<div class="collapse" id="fun">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#fun1">
+												<li> WRITE A PROGRAM using function to find the largest of three numbers.</li>
+											</a>
+											<li><a href="#fun2">C Program for Function without argument and return value. </a></li>
+											<li><a href="#fun3">C Program for Function without argument and with return value.</a></li>
+											<a href="#fun4">
+												<li> C Program for Function with argument and without return value.</li>
+											</a>
+											<li><a href="#fun5">C Program for Function with argument and with return value. </a></li>
+											<li><a href="#fun6">C Program passing arguments using call by value method. (Swap two number).</a></li>
+											<li><a href="#fun7">C Program passing arguments using Call by Reference (swap two Number) . </a></li>
+											<li><a href="#fun8">WRITE A PROGRAM to find the factorial of a given number using Recursion.</a></li>
+
+
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!---Array---->
+						<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#array" aria-expanded="false" aria-controls="collapseExample">
+Array
+  </button>
+									</h5></div>
+<div class="collapse" id="array">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#array1">
+												<li> Program of One Dimensional Array in C.</li>
+											</a>
+											<li><a href="#array2">Program of 2-Dimensional Array in C. </a></li>
+											<li><a href="#array3">WRITE A PROGRAM to print the sum of two matrices.</a></li>
+											<li><a href="#array4">WRITE A PROGRAM to pass the values of array elements to the function using<b>call by value.</b> </a></li>
+											<li><a href="#array5">WRITE A PROGRAM to pass the values of array elements to the function using <b>call by reference.</b></a></li>
+
+
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!---------string---->
+						<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#string" aria-expanded="false" aria-controls="collapseExample">
+ String
+  </button>
+									</h5></div>
+<div class="collapse" id="string">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#string1">
+												<li> WRITE A PROGRAM to Find the Length of a String.</li>
+											</a>
+											<li><a href="#string2">WRITE A PROGRAM to Copy String using strcpy(). </a></li>
+											<li><a href="#string3">WRITE A PROGRAM to compare a string.</a></li>
+											<li><a href="#string4">WRITE A PROGRAM to reverse a string. </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!----pointer----->
+						<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#pointer" aria-expanded="false" aria-controls="collapseExample">
+ Pointer
+  </button>
+									</h5></div>
+<div class="collapse" id="pointer">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#pointer1">
+												<li> WRITE A Pointer PROGRAM to swap two numbers without using the 3rd variable..</li>
+											</a>
+											<li><a href="#pointer2">WRITE A Pointer PROGRAM to show the relation between array and pointer. </a></li>
+											<li><a href="#pointer3">WRITE A PROGRAM to show 2-D Array with Pointer.</a></li>
+											<li><a href="#string4">WRITE A PROGRAM to display address of variable using pointers.</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-----structure---->
+						<div class="card" id="accordion-menu">
+								<div class="card-header" id="headingOne" style="padding:0px;">
+									<h5 class="mb-0">
+  <button class="btn btn-link text-danger" id="hd" type="button" data-toggle="collapse" data-target="#struct" aria-expanded="false" aria-controls="collapseExample">
+ Structure
+  </button>
+									</h5></div>
+<div class="collapse" id="struct">
+  <div class="card card-body">
+    <ul class="lead" style="font-size:1.15rem;" id="menu_side">
+											<a href="#struct1">
+												<li>WRITE A PROGRAM to create Student I-Card using a Structure.</li>
+											</a>
+											<li><a href="#struct2">WRITE A PROGRAM to display structures and pointers.</a></li>
+											<li><a href="#struct3">WRITE A PROGRAM to show 2-D Array with Pointer.</a></li>
+											<li><a href="#struct4">WRITE A PROGRAM to Passing Structure to a Function By Reference.</a></li>
+											<li><a href="#struct5">WRITE A PROGRAM to show the memory occupied by Structure.</a></li>
+											<li><a href="#struct6">WRITE A PROGRAM to demonstrate the difference between unions and structures.</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!---------------->
+						</div>
+					</div>
+				</div>
+				</div>
+				<!-------->
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3995394796626631"
+     crossorigin="anonymous"></script>
+<!-- video ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3995394796626631"
+     data-ad-slot="1785212310"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+				<!--programs---->
+				<div class="col-sm-7 text-left">
+					<!---<div class="row">
+						<div class="col-lg-12">
+							<img src="../pic/title_realjava.png" style="border:1px #FF0000 solid" class="img-fluid">
+						</div>
+					</div>---->
+
+					<div class="container-fluid mt-3">
+						<h3 id="hello" class="text-danger">C "Hello, World!" Program</h3>
+						<span class="lead">
+							<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+    clrscr();
+    printf("Hello, World!");
+    return 0;
+    }
+    </b></b></code></pre>
+						</span>
+						<!=---2---->
+							<h3 id="add" class="text-danger">C Program Add Two Integers</h3>
+							<span class="lead">
+								<pre>
+<code> 
+ #include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+        int number1, number2, sum;
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+    // calculating sum
+    sum = number1 + number2;     
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
+
+}
+</code></pre>
+							</span>
+							<!---3--->
+							<h3 id="quotient" class="text-danger">C Program to Compute Quotient and Remainder</h3>
+							<span class="lead">
+								<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ int dividnd, divisor, quotient, remainder;
+    printf("Enter dividend: ");
+    scanf("%d",&dividnd);
+    printf("Enter divisor: ");
+    scanf("%d",&divisor);
+    quotient = dividnd / divisor;
+    remainder = dividnd % divisor;
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d", remainder);
+    return 0;
+}
+</code></pre>
+							</span>
+							<!-----4---->
+							<h3 id="cyl" class="text-danger">C Program for volume of Cylinder</h3>
+							<span class="lead">
+								<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ int radius, height;                                                         
+    float volume=0, pi=3.14;                                                                   
+    printf("\nEnter radius: ");                                                 
+    scanf("%d", &radius);                                                                                                                           
+    printf("\nEnter height: ");                                                 
+    scanf("%d", &height);                                                                                                                           
+    volume = pi*(radius*radius*height);                                                                                                     
+    printf("Volume of a cylinder is: %.2f", volume);      
+    return 0;
+}
+</code></pre>
+							</span>
+							<!---------5----------->
+							<h3 id="cyl" class="text-danger">C Program for volume of Cylinder</h3>
+							<span class="lead">
+								<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ int radius, height;                                                         
+    float volume=0, pi=3.14;                                                                   
+    printf("\nEnter radius: ");                                                 
+    scanf("%d", &radius);                                                                                                                           
+    printf("\nEnter height: ");                                                 
+    scanf("%d", &height);                                                                                                                           
+    volume = pi*(radius*radius*height);                                                                                                     
+    printf("Volume of a cylinder is: %.2f", volume);      
+    return 0;
+}
+</code></pre>
+							</span>
+							<!------6---------->
+							<h3 id="marks" class="text-danger">C Program Input the marks of Three Different Subjects and find out the total & percentage.</h3>
+							<span class="lead">
+								<div class="codeblock">
+
+									<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void  main() 
+{ 
+        int M1,M2,M3,Total;
+
+           float Per;
+
+           clrscr();
+
+           printf("\n\n\t\t Enter the Marks of First Subject: ");
+
+           scanf("%d",&M1);
+
+           printf("\n Enter the Marks of Second Subject: ");
+
+           scanf("%d",&M2);
+
+           printf("\n\n\t\t Enter the Marks of Third Subject: ");
+
+           scanf("%d",&M3);
+
+           Total=M1+M2+M3;
+
+          Per=Total/3;
+
+ 
+
+           printf("\n\n\t\t Total Marks of Three Subject is: %d",Total);
+
+           printf("\n\n\t\t Percentage is: %f",Per);
+           getch();
+} 
+</code> 
+</pre>
+
+								</div>
+							</span>
+							<!------7----->
+							<h3 id="square" class="text-danger">C Program to Calculate Square of a Number</h3>
+							<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+    clrscr();
+    int number, Square;
+ 
+  printf(" \n Please Enter any integer Value : ");
+  scanf("%d", &number);
+  
+  Square = number * number;
+  
+  printf("\n Square of a given number %d is  =  %d", number, Square);
+   return 0;
+    }
+    </b></b></code></pre></span>
+							<!====8--->
+								<h3 id="ascii" class="text-danger">C Program to Find ASCII Value of a Character</h3>
+								<span class="lead">
+									<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+    clrscr();
+     char c;
+    printf("Enter a character: ");
+    scanf("%c", &c);  
+    // %d displays the integer value of a character
+    // %c displays the actual character
+    printf("ASCII value of %c = %d", c, c);
+    
+    return 0;
+    }
+    </b></b></code></pre>
+								</span>
+								<!----9--->
+								<h3 id="size" class="text-danger">C PROGRAM to Find the Size of int, float, double and char</h3>
+								<span class="lead">
+									<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+    clrscr();
+    int integerType;
+    char charType;
+    float floatType;
+    double doubleType;
+    printf("Size of int is: %ld\n",sizeof(integerType));
+    printf("Size of char is: %ld\n", sizeof(charType));
+    printf("Size of float is: %ld\n",sizeof(floatType));
+    printf("Size of double is: %ld\n",sizeof(doubleType));
+    return 0;
+    }
+    </b></b></code></pre>
+								</span>
+								<!-------10---->
+								<h3 id="hello" class="text-danger">C PROGRAM to find the simple interest, inputs are amount, period in years
+									and rate of interest.</h3>
+								<span class="lead">
+									<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+    clrscr();
+    float principal_amt, rate, simple_interest;
+    int time;
+ 
+    printf("Enter the values of principal_amt, rate and time \n");
+    scanf("%f %f %d", &principal_amt, &rate, &time);
+    simple_interest = (principal_amt * rate * time) / 100.0;
+    printf("Amount = Rs. %f\n", principal_amt);
+    printf("Rate = Rs. %f%\n", rate);
+    printf("Time = %d years\n", time);
+    printf("Simple interest = %f\n", simple_interest);
+    return 0;
+    }
+    </b></b></code></pre>
+								</span>
+								<!-----11---->
+								<h3 id="pstv" class="text-danger">C Program to display a number if it is positive</h3>
+								<span class="lead">
+									<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+    { 
+    clrscr();
+   int number;
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+    if (number>0) 
+    printf("The value is negative");
+    return 0;
+    }
+    </b></b></code></pre>
+								</span>
+								<!=----12---->
+									<h3 id="larger" class="text-danger">C PROGRAM to find the larger of two numbers</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+clrscr();
+int num1, num2;
+printf("Enter Two Numbers");
+scanf(“%d %d”,&num1,&num2);
+if(num1 > num2)
+{ 
+printf(“%d is greater”,num1);
+}
+else
+{
+printf(“%d is greater”,num2);
+}
+    return 0;
+    }
+    </b></b></code></pre>
+									</span>
+									<!----13----->
+									<h3 id="even" class="text-danger">C PROGRAM to find whether the given number is even or odd</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+clrscr();
+int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if(num % 2 == 0)
+        printf("%d is even.", num);
+    else
+        printf("%d is odd.", num);
+    return 0;
+    }
+    </b></b></code></pre>
+									</span>
+									<!---14--->
+									<h3 id="nested" class="text-danger">C PROGRAM to find greater of three numbers using Nested If-else</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+clrscr();
+int num1, num2,num3;
+printf("Enter Three Numbers");
+scanf(“%d %d %d”,&num1,&num2,&num3);
+if(num1 > num2)
+{ 
+if(num1>num3)
+printf(“num1 is greater %d”,num1);
+}
+else
+{
+if(num2>num3)
+printf(“num2 is greater %d”,num2);
+else
+printf(“num3 is greater %d”,num3);
+}
+    return 0;
+    }
+    </b></b></code></pre>
+									</span>
+									<!----14-2---->
+									<h3 id="ladder" class="text-danger">Program to Check no. is +ve ,-ve & zero.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main() 
+ { 
+     int no; 
+     clrscr(); 
+     printf("Enter the  no :"); 
+     scanf("%d",&a); 
+     if(no>0) 
+      { 
+            printf("no is Positive"); 
+      } 
+    else if(no==0) 
+     { 
+            printf("no is Zero"); 
+     } 
+    else 
+    { 
+           printf("no is Nagative"); 
+    } 
+           getch(); 
+ } 
+							
+								</code>
+								</pre>
+									</span>
+									<!---15--->
+									<h3 id="switch" class="text-danger">C PROGRAM to Make a Simple Calculator Using switch...case
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+clrscr();
+ int num1,num2;
+    float result;
+    char ch; 
+     
+    printf("Enter first number: ");
+    scanf("%d",&num1);
+    printf("Enter second number: ");
+    scanf("%d",&num2);
+     
+    printf("Choose operation to perform (+,-,*,/,%): ");
+    scanf(" %c",&ch);
+     
+    result=0;
+    switch(ch)    
+    {
+        case '+':
+            result=num1+num2;
+            break;
+             
+        case '-':
+            result=num1-num2;
+            break;
+         
+        case '*':
+            result=num1*num2;
+            break;
+             
+        case '/':
+            result=(float)num1/(float)num2;
+            break;
+             
+        case '%':
+            result=num1%num2;
+            break;
+        default:
+            printf("Invalid operation.\n");
+    }
+ 
+    printf("Result is: %d %c %d = %f\n",num1,ch,num2,result);
+    return 0;
+    }
+    </b></b></code></pre>
+									</span>
+									<!----16---->
+									<h3 id="while1" class="text-danger">C Program Print numbers from 1 to 5 using while loop</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+clrscr();
+int i = 1;
+    
+  while (i <= 5) {
+    printf("%d\n", i);
+    ++i;
+  }
+    return 0;
+    }
+    </b></b></code></pre>
+									</span>
+									<!-----17----->
+									<h3 id="while2" class="text-danger">WRITE A PROGRAM to Generate Multiplication Table Using while loop
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+clrscr();
+int n, i;
+ 
+    printf("Enter a Number ");
+    scanf("%d",&n);
+    i=1;
+    while(i<=10){
+                
+        printf("%d * %d = %d \n", n, i, n*i);
+        ++i;
+    }
+    return 0;
+    }
+    </b></b></code></pre>
+									</span>
+									<!----18----->
+									<h3 id="while2" class="text-danger">WRITE A C PROGRAM to display the first 10 natural numbers using for loop</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+int i;
+	printf("The first 10 natural numbers are:\n");
+	for (i=1;i<=10;i++)
+	{      
+		printf("\n%d ",i);
+	}
+    return 0;
+    }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!---19---->
+									<h3 id="while2" class="text-danger">C PROGRAM to Generate Multiplication Table Using for loop</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ clrscr();
+int no,i;
+	printf("Enter the Number");
+	scanf("%d",&no);
+	for (i=1;i<=10;i++)
+	{      
+		printf("\n%d*%d=%d ",no,i,no*i);
+	}
+    return 0;
+    }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----20------>
+									<h3 id="while2" class="text-danger">C Program Print numbers from 1 to 5 using do-while loop</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ clrscr();
+int i = 1;
+    
+do {
+    printf("%d\n", i);
+    i++;
+  }  while (i <= 5)
+    return 0;
+    }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!--- jumping s21--->
+									<h3 id="jump1" class="text-danger">C Program Print series from 1 to 10 and break on 5</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ clrscr();
+int i;
+for(i=1;i<=10;i++)
+   {
+   if(i==5)
+   break;
+    printf("%d\n",i);
+   }
+    return 0;
+    }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----22-->
+									<h3 id="jump2" class="text-danger">C Program Print series from 1 to 10 and skip only 5 and 7 </h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ clrscr();
+int i;
+for(i=1;i<=10;i++)
+   {
+   if(a==5 || a==7)
+   continue;
+   printf("%d\n",i);
+   }
+   
+    return 0;
+    }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!----23----->
+									<h3 id="jump3" class="text-danger">C Program To print numbers from 1 to 10 using goto statement </h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int  main() 
+ { 
+ clrscr();
+int number;
+    number=1;
+ 
+repeat:
+    printf("%d\n",number);
+    number++;
+ 
+    if(number<=10)
+        goto repeat;
+   
+    return 0;
+    }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!--function 25--->
+									<h3 id="fun1" class="text-danger">WRITE A PROGRAM using function to find the largest of three numbers.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int large(int a, int b, int c)
+{
+   if(a>=b && a>=c) 
+   return a;
+   else if(b>=a && b>=c) 
+   return b;
+   else 
+   return c;
+}
+
+int main()
+{
+  clrscr();
+   int num1, num2, num3, largest;
+
+   printf("Enter three numbers: ");
+   scanf("%d %d %d", &num1, &num2, &num3);
+
+   largest = large(num1, num2, num3);
+   printf("Largest number = %.d",largest);
+   return 0;
+}
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----26--->
+									<h3 id="fun2" class="text-danger">C Program for Function without argument and return value.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+   {
+   void printname(); //Function Declaration
+   printf("Hello ");  
+   printname();      //Invoking Function
+   getch();
+   }
+   void printname()   //Function Defination
+   {
+   printf("jpwebdevelopers");
+   }
+   
+   
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----27---->
+									<h3 id="fun3" class="text-danger">C Program for Function without argument and with return value.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b> 
+void main()
+   {
+   int total;
+   int sum();
+   total=sum();  //calling function having no arguments
+   printf("%d",total);
+   getc();
+   }
+   int sum()
+   {
+     int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);  
+    return a+b;  
+   }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----28----->
+									<h3 id="fun4" class="text-danger">C Program for Function with argument and without return value.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int main()
+   {
+   int sum(int,int);
+   int a,b,total;
+   printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b); 
+    sum(a,b);
+   }
+   int sum(int x, int y)
+   {
+   int total;
+   total=a+b;
+   printf("\n%d",total);
+   }
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!----29--->
+
+									<h3 id="fun5" class="text-danger">C Program for Function with argument and with return value.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()  
+{  
+    int a,b,result;   
+    int sum(a,b);  
+    printf("\nEnter two numbers:");  
+    scanf("%d %d",&a,&b);  
+    result = sum(a,b);  //calling function having arguments
+    printf("\nThe sum is : %d",result);  
+    getch();
+}  
+int sum(int a, int b)  //called function
+{  
+   int total;
+   total=a+b;
+    return total;  
+}  
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!----30------->
+									<h3 id="fun6" class="text-danger">C Program passing arguments using call by value method. (Swap two number).
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+void swap (int a, int b); //function declaration
+int a,b;
+clrscr();
+printf ("Enter two numbers ");
+scanf (“%d%d",&a,&b) swap (a,b);
+swap(a,b);
+printf(“a=%d b=%d”,a,b);
+getch();
+}
+void swap (int a, int b) // function definition
+{
+int temp;
+temp=a;
+a=b;
+b=temp;
+printf(“a=%d b=%d\n”,a,b);
+} 
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!----31----->
+									<h3 id="fun7" class="text-danger">C Program passing arguments using Call by Reference (swap two Number) .
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+void swap (int *, int *);
+int a, b;
+clrscr();
+printf ("enter two number");
+scanf ("%d%d",&a,&b);
+printf (" \n before swapping a=%d b=%d", a,b);
+swap (&a, &b);
+printf ("\n After swapping a=%d b=%d",a,b);
+getch();
+}
+void swap (int *a, int *b)
+{
+int temp;
+temp=*a;
+*a = *b;
+*b= temp;
+}
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!----32---->
+									<h3 id="fun8" class="text-danger">WRITE A PROGRAM to find the factorial of a given number using Recursion.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+int fact (int num);
+int num;
+clrscr();
+printf ("enter number");
+scanf ("%d" &num);
+printf ("\n factorial is = %d", fact (num));
+getch();
+}
+int fact (int n)
+{
+if (n==1)
+return (1);
+else
+return (n* fact (n-1));
+} 
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----33---------->
+									<h3 id="array1" class="text-danger">Program of One Dimensional Array in C.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+clrscr();
+int arr[5];
+int i;
+for(i=0;i<5;i++)
+{
+printf(“Enter the array elements”);
+scanf(“%d”,&arr[i]);
+}
+printf(“\n Printing elements of array”);
+for(i=0;i<5;i++)
+{
+printf(“%d\t”,arr[i]);
+}
+getch();
+} 
+    </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----34---->
+									<h3 id="array1" class="text-danger">Program of 2-Dimensional Array in C.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+clrscr();
+int arr[2][2];
+int i,j;
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf(“Enter the array elements”);
+scanf(“%d”,&arr[i][j]);
+}
+printf(“\n”);
+}
+printf(“\n Printing elements of array”);
+for(i=0;i<2;i++)
+{
+for(j=0;j<2;j++)
+{
+printf(“%d\t”,arr[i][j]);
+}
+printf(“\n”);
+}
+getch();
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!-------35----->
+									<h3 id="array3" class="text-danger">WRITE A PROGRAM to print the sum of two matrices.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+ intat2] [2], b[2] [2], i, j;
+ printf(“Enter the elements of A matrix \n”);
+for (i=0; i< 2; i++)
+{
+for (j = 0; j <2; j++)
+{
+ printf ("Enter the number");
+scanf ("%d",&a[i][j]);
+}
+}
+printf(“ Enter the elements of B matrix \n”);
+for (i=0; i< 2; i++)
+{
+for (j = 0; j <2; j++)
+{
+printf("Enter the number");
+scanf("%d",&b[i][j]);
+}
+}
+printf ("Addition of A and B Matrix \n”);
+for (i=0; 1<2; i++)
+{
+ for(j=0; j <2; j++)
+{
+printf ("%d", a[i][j] + b[i][j]);
+}
+printf ("\n");
+}
+ getch();
+}
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----36--------->
+									<h3 id="array4" class="text-danger">WRITE A PROGRAM to pass the values of array elements to the function using call by value.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void show (int a)
+{
+printf("%d\t", a);
+}
+void main()
+{
+clrscr();
+ int a[]={ 10,20,30,40 60};
+printf ("The elements of Array : \n");
+for (int i = 0; i < 5; i++)
+{
+show (a[i]);
+}
+getch();
+}
+
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!------37------->
+									<h3 id="array5" class="text-danger">WRITE A PROGRAM to pass the values of array elements to the function using call by reference.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void show (int *a)
+{
+printf("%d\t", a);
+} 
+void main()
+{
+clrscr();
+ int a[]={ 10,20,30,40 60};
+printf ("The elements of Array : \n");
+for (int i = 0; i < 5; i++)
+{
+show (&a[i]);
+}
+getch();
+} 
+
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!--------38---->
+									<h3 id="string1" class="text-danger">WRITE A PROGRAM to Find the Length of a String.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+#include<b><</b>string.h<b>></b>  
+int main()
+{
+    char Str[1000];
+    int i;
+  
+    printf("Enter the String: ");
+    scanf("%s", Str);
+  
+    printf("Length of Str is %ld", strlen(Str));
+  
+    return 0;
+}
+
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----39--------->
+									<h3 id="string1" class="text-danger">WRITE A PROGRAM to Find the Length of a String
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+#include<b><</b>string.h<b>></b>  
+void main()
+{
+    char str1[100],str2[50];
+    printf("Enter string str1\n");
+    gets(str1);
+    strcpy(str2,str1);
+    printf("Copied String(str2) is %s",str2);
+    getch();
+}
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----40----->
+									<h3 id="string2" class="text-danger">WRITE A PROGRAM to Copy String using strcpy().
+
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+#include<b><</b>string.h<b>></b>  
+int main()  
+{  
+   char str1[20];  // declaration of char array  
+   char str2[20];  // declaration of char array    
+   printf("Enter the first string : ");  
+   scanf("%s",str1);  
+   printf("Enter the second string : ");  
+   scanf("%s",str2);  
+   if(strcmp(str1,str2)==0)  
+   printf("strings are same");  
+   else  
+   printf("strings are not same");  
+   return 0;  
+} 
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----41------>
+									<h3 id="string3" class="text-danger">WRITE A PROGRAM to compare a string.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+#include<b><</b>string.h<b>></b>  
+int main()  
+{  
+   char str1[20];  // declaration of char array  
+   char str2[20];  // declaration of char array    
+   printf("Enter the first string : ");  
+   scanf("%s",str1);  
+   printf("Enter the second string : ");  
+   scanf("%s",str2);  
+   if(strcmp(str1,str2)==0)  
+   printf("strings are same");  
+   else  
+   printf("strings are not same");  
+   return 0;  
+} 
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!---42----->
+									<h3 id="string4" class="text-danger">WRITE A PROGRAM to reverse a string.
+										.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+#include<b><</b>string.h<b></b>  
+int main()  
+{  
+   char s[100];
+   printf("Enter a string to reverse\n");
+   gets(s);
+   strrev(s);
+   printf("Reverse of the string: %s\n", s); 
+   return 0;  
+} 
+
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----43--->
+									<h3 id="pointer1" class="text-danger">WRITE A Pointer PROGRAM to swap two numbers without using the 3rd variable.
+										.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+int main()  
+{
+int a=10,b=20,*p1=&a,*p2=&b;   
+printf("Before swap: *p1=%d *p2=%d",*p1,*p2);  
+*p1=*p1+*p2;  
+*p2=*p1-*p2;  
+*p1=*p1-*p2;  
+printf("\nAfter swap: *p1=%d *p2=%d",*p1,*p2);   
+return 0; 
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----44----->
+									<h3 id="pointer2" class="text-danger">WRITE A Pointer PROGRAM to show the relation between array and pointer.
+										.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{ 
+int ar[5]={10,20,30,40,50};
+int *p,i;
+p=ar;
+for (i=0;i< 5; i++)
+{
+printf("\n The value stored at the location %d is %d", i,p[i]); 
+}
+getch();
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----45---->
+									<h3 id="pointer3" class="text-danger">WRITE A PROGRAM to show 2-D Array with Pointer.
+										.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+int ar[3][4]={
+{10,20,30,40}, {5,6,7,8}, {9,10,11,12},
+};
+int i,j;
+clrscr();
+for (i=0;i<3;i++)
+{
+for(j=0;j<4;j++)
+{
+printf("\n The value stored at the location[%d][%d]is %d", i, j, *(*(ar+i) +j));
+}
+}
+getch();
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----46--->
+									<h3 id="pointer4" class="text-danger">WRITE A PROGRAM to display address of variable using pointers.
+									</h3>
+									<span class="lead">
+										<pre <code>
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void main()
+{
+int var=100;
+clrscr();
+printf(“the address of var is %u”,&var);
+getch();
+} 
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----47---->
+									<h3 id="struct1" class="text-danger">WRITE A PROGRAM to create Student I-Card using a Structure.
+
+										.
+
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+struct student
+{
+   char id_num[6];
+    char name[50];
+    char fname[50];
+    char gender;
+    int roll;
+int age;
+};
+int main()
+{
+    struct student s;
+    
+ printf("Enter The Information of Students :\n\n");
+    printf("Enter Id Number : ");
+    scanf("%s",s.id_num);
+    printf("/n Enter Name : ");
+    scanf("%s",s.name);
+    printf("Enter Father Name : ");
+    scanf("%s",s.fname);
+     printf("Enter Gender : ");
+    scanf("%s",s.gender);
+     printf("Enter Roll No. : ");
+    scanf("%d",&s.roll);
+    printf("Enter Age : ");
+    scanf("%d",&s.age);
+    
+    
+    printf("\nDisplaying Information\n");
+    printf("Name: %s\n",s.id_num);
+    printf("Name: %s\n",s.name);
+    printf("Name: %s\n",s.fname);
+    printf("Name: %s\n",s.gender);
+    printf("Roll: %d\n",s.roll);
+    printf("Marks: %.d\n",s.age);
+    return 0;
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!-----48----->
+									<h3 id="struct2" class="text-danger">WRITE A PROGRAM to display structures and pointers.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+struct student
+{
+   char name[20];
+int rollno;
+};
+void main()
+{
+struct student stu;
+struct student *p;
+p=&stu;
+printf(“\n Enter Student Name:”);
+scanf(“%s”,p->name);
+printf(“\n Enter Student Roll No:”);
+scanf(“%d”,&p->rollno);
+printf(“\n******OUTPUT******);
+printf(“\n Student Name is :%s”,(*p).name);
+printf(“\n Student Rollno is :%d”,(*p).rollno); 
+getch();
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!---49---->
+									<h3 id="struct3" class="text-danger">WRITE A PROGRAM to Passing Structure to a Function By Value
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void disp(struct student s1);
+struct student
+{
+char name[20];
+int rollno;
+};
+void main()
+{
+struct student stu;
+printf(“Enter the Name”);
+scanf(“%s”,stu.name);
+printf(“Enter the RollNo”);
+scanf(“%d”,&stu.rollno);
+disp(stu);
+getch();
+}
+void disp(struct student s1)
+{
+printf(“\n****output****”);
+printf(“\nStudent Name is %s”,s1.name);
+printf(“\nStudent Rollno is %d”,s1.rollno);
+} 
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!---50--->
+									<h3 id="struct4" class="text-danger">WRITE A PROGRAM to Passing Structure to a Function By Reference.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+void disp(struct student * s1); 
+struct student
+{
+char name[20];
+int rollno;
+};
+void main()
+{
+struct student stu;
+printf(“Enter the Name”);
+scanf(“%s”,stu.name);
+printf(“Enter the RollNo”);
+scanf(“%d”,&stu.rollno);
+disp(&stu);
+getch();
+}
+void disp(struct student *s1) 
+{
+printf(“\n****output****”);
+printf(“\nStudent Name is %s”,s1->name);
+printf(“\nStudent Rollno is %d”,s1->rollno); 
+} 
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----51---->
+									<h3 id="struct5" class="text-danger">WRITE A PROGRAM to show the memory occupied by Structure.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+struct student 
+{
+       int id;
+       char a;
+       char b;
+       float percentage;
+};
+ 
+int main() 
+{
+    int i;
+    struct student s1 = {1,'A', 'B', 90.5};
+ 
+    printf("size of structure in bytes : %d\n", 
+                           sizeof(s1));
+ 
+    printf("\nAddress of id1        = %u", &s1.id );
+    printf("\nAddress of a          = %u", &s1.a );
+    printf("\nAddress of b          = %u", &s1.b );
+    printf("\nAddress of percentage = %u",&s1.percentage);
+ 
+    return 0;
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----52--->
+									<h3 id="struct6" class="text-danger">
+									WRITE A PROGRAM to demonstrate the difference between unions and structures.
+									</h3>
+									<span class="lead">
+										<pre>
+<code> 
+#include<b><</b>stdio.h<b>></b>
+#include<b><</b>conio.h<b>></b>
+union unionJob
+{
+   //defining a union
+   char name[32];
+   float salary;
+   int workerNo;
+} uJob;
+
+struct structJob
+{
+   char name[32];
+   float salary;
+   int workerNo;
+} sJob;
+
+int main()
+{
+   printf("size of union = %d bytes", sizeof(uJob));
+   printf("\nsize of structure = %d bytes", sizeof(sJob));
+   return 0;
+}
+ </b></b></code></pre>
+										</pre>
+									</span>
+									<!----------=---53---->
+					</div>
+
+				</div>
+				<!---------->
+			</div>
+		</div>
+		<!---------------->
+	
+<!---------footer--->
+	
+         
+	
